@@ -14,6 +14,6 @@ Please install the items below:
 ```
 $ export IBMCLOUD_API_KEY=<YOUR IBMCLOUD_API_KEY>
 $ docker-compose pull
-$ docker-compose run single_region_tg
+$ docker-compose run single-region-tg
 ```
 
