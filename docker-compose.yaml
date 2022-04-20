@@ -16,10 +16,9 @@ services:
     volumes:
       # For future ssh use in development
       - ~/.ssh:/home/ubuntu/.ssh:ro
-      - .:/dev-env
+      - .:/single-region-tg
       - /var/run/docker.sock:/var/run/docker.sock
       - ~/.gitconfig:/home/ubuntu/.gitconfig:ro
     environment:
       IBMCLOUD_API_KEY: "$IBMCLOUD_API_KEY"
     working_dir: /single-region-tg
-
